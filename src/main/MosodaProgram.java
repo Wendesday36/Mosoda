@@ -34,6 +34,9 @@ public class MosodaProgram {
         mosoda.kiad("Petra");
         System.out.println("--- a mosodában maradt ruhák:");
         mosodaRuhai();
+        mosoda.leeg();
+        
+        mosoda.bevesz(new Ruha("valkai"));
     }
     
     private void mosodaRuhai() {
