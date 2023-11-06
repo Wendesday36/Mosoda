@@ -1,6 +1,6 @@
 package modell;
 
-public class Ruha {
+abstract class Ruha {
     private String tulNeve;
     private boolean tiszta;
 
@@ -29,6 +29,4 @@ public class Ruha {
     public String toString() {
         return "Ruha{" + "tulNeve=" + tulNeve + ", tiszta=" + tiszta + '}';
     }
-
-    
 }
