@@ -55,7 +55,6 @@ public class Mosoda {
                             case FELNOTT:
                                 pulcsi.setMeret(Pulcsi.Meret.TINI);
                                 break;
-
                             case TINI:
                                 pulcsi.setMeret(Pulcsi.Meret.GYEREK);
                                 break;
@@ -81,7 +80,7 @@ public class Mosoda {
                 if (ruha != null) {
                     if (ruha instanceof Ing) {
                         Ing ing = (Ing) ruha;
-                        ing.setSzin(ing.getSzin() * 0.145);
+                        ing.setSzin(ing.getSzin() * 0.985);
                     }
                     if (ruha instanceof Pulcsi) {
                         Pulcsi pulcsi = (Pulcsi) ruha;
